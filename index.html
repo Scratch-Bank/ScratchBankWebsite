@@ -15,7 +15,7 @@ add some nice css
    console.log(Notification.permission);
    if (Notification.permission === "denied") {
    Notification.requestPermission(); 
-   } elif (Notification.permission === "default") {
+   } else if (Notification.permission !== "denied") {
    Notification.requestPermission();
    };
     </script>
