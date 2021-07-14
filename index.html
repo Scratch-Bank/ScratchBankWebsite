@@ -5,7 +5,11 @@
 
   <body>
   <script>
-    Notification.requestPermission();
+   if (Notification.permission = "Granted") {
+   ;
+  } else {
+   Notification.requestPermission();
+  }
     </script>
   <h1>Coming Soon™</h1>
 
