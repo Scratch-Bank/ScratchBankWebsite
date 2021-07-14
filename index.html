@@ -11,8 +11,13 @@ add some nice css
   <noscript>please enable javascript for this site to work properly :)</noscript>
   
     <script>
+      //Detect if user allowed notifications
    console.log(Notification.permission);
+   if (Notification.permission === "denied") {
    Notification.requestPermission(); 
+   } elif (Notification.permission === "default") {
+   Notification.requestPermission();
+   };
     </script>
     
   <h1>
