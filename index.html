@@ -11,9 +11,11 @@ add some nice css
   
     <script>
    Function requestNotif(){  
-   if (Notification.permission = "denied") {
+   if (Notification.permission === "denied") {
+   alert("Allow notifications to get updates about Scratch Bank")  
    Notification.requestPermission(); 
-   }elif (Notification.permission = "default"){
+   }elif (Notification.permission === "default"){
+   alert("Allow notifications to get updates about Scratch Bank")
    Notification.requestPermission(); 
    };
    requestNotif();
