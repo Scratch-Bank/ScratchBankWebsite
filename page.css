@@ -4,6 +4,13 @@ background-color:#EBEBEB;
 h1 {
 text-align:center;
 }
-a {
+a:link {
+color:black;
 text-align:center;
+text-decoration:none;
+}
+a:visited {
+color:red;
+text-align:center;
+text-decoration:none;
 }
