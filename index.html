@@ -16,10 +16,10 @@ echo shell_exec("python main.py 'parameter1'");
     <script>
    function showNotification() {
         const notification = new Notification("Scratch Bank", {
-          body: "test message",
+          body: "test message"
         });
 
-        notifications.onclick = (e) => {
+        notification.onclick = (e) => {
           window.location.href = "https://scratch.mit.edu/discuss/topic/528490/"
         };
       }
