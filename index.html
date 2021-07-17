@@ -14,15 +14,9 @@ echo shell_exec("python main.py 'parameter1'");
     <noscript>please enable javascript for this site to work properly :)</noscript>
   
     <script>
-   function showNotification() {
-        const notification = new Notification("Scratch Bank", {
-          body: "test message"
-        });
-
-        notification.onclick = (e) => {
-          window.location.href = "https://scratch.mit.edu/discuss/topic/528490/"
-        };
-      }
+   notification.onclick = (e) => {
+     window.location.href = "https://scratch.mit.edu/discuss/topic/528490/"
+   };
    showNotification();
       //Detect if user allowed notifications
    if (Notification.permission === "denied") {
@@ -36,7 +30,6 @@ echo shell_exec("python main.py 'parameter1'");
     
   <a href="https://scratch.mit.edu/discuss/post/5425750/"><p style="text-align:center">click here for more info</a>
   <button onclick=alert("test");>click here to receive an alert notification</button>
-  <button onclick=showNotification();>click here to receive a normal notification</button>
+  <button onclick=serviceWorkerRegistration.showNotification(Scratch Bank, body: "This is just a tests message");>click here to receive a normal notification</button>
     </body>
 </html>
-   
