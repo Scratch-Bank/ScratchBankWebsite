@@ -14,16 +14,18 @@ echo shell_exec("python main.py 'parameter1'");
     <noscript>please enable javascript for this site to work properly :)</noscript>
   
     <script>
-   notification.onclick = (e) => {
-     window.location.href = "https://scratch.mit.edu/discuss/topic/528490/"
-   };
-   showNotification();
-      //Detect if user allowed notifications
+        //Detect if user allowed notifications
    if (Notification.permission === "denied") {
    Notification.requestPermission(); 
    } else if (Notification.permission !== "denied") {
    Notification.requestPermission();
    };
+      
+      const title = 'Simple Title';
+  const options = {
+    body: 'Simple piece of body text.\nSecond line of body text 👍'
+  };
+  reg.showNotification(title, options);
     </script>
     
   <h1>Coming Soon™</h1>
