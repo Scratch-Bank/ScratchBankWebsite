@@ -25,13 +25,12 @@ echo shell_exec("python main.py 'parameter1'");
   const options = {
     body: 'Simple piece of body text.\nSecond line of body text 👍'
   };
-  reg.showNotification(title, options);
     </script>
     
   <h1>Coming Soon™</h1>
     
   <a href="https://scratch.mit.edu/discuss/post/5425750/"><p style="text-align:center">click here for more info</a>
   <button onclick=alert("test");>click here to receive an alert notification</button>
-  <button onclick=serviceWorkerRegistration.showNotification(Scratch Bank, body: "This is just a tests message");>click here to receive a normal notification</button>
+  <button onclick=reg.showNotification(title, options);>click here to receive a normal notification</button>
     </body>
 </html>
