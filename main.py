@@ -1,2 +1,3 @@
-#I'm going to change this later
-#Do not delete this!
+import random
+while True:
+  parameter1 = random.randint(1,100)
