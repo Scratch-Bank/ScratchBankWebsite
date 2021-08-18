@@ -20,6 +20,7 @@ text-decoration:none;
 }
 
 .btn {
+    transition: 1s;
     border-radius: 7px;
     color: white;
     background-color: royalblue;
