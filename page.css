@@ -24,5 +24,14 @@ text-decoration:none;
     border-radius: 7px;
     color: white;
     background-color: royalblue;
+    width: auto;
+    height: auto;
 }
 
+.btn:hover {
+    transition: 1s;
+    border-radius: 7px;
+    color: white;
+    background-color: royalblue;
+    font-size: 17;
+}
