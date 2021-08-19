@@ -1,1 +1,1 @@
-Coming Soon <br> https://delightedduck.github.io/ScratchBank/
+Coming Soon <br> https://scratch-bank.github.io/ScratchBankWebsite/
