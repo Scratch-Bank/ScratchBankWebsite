@@ -1,14 +1,17 @@
 body {
 background-color:#EBEBEB;
 }
+
 h1 {
 text-align:center;
 }
+
 a:link {
 color:blue;
 text-align:center;
 text-decoration:none;
 }
+
 a:visited {
 color:red;
 text-align:center;
