@@ -8,9 +8,13 @@ add logo to coming soon page
 <title>Scratch Bank</title>
 
   <body>
-Here is my variable: {parameter1}
+    <h5> Here is my variable: {<span id="para1"></span></h5>
+    
   
     <script>
+    let para1 = {parameter1};
+    document.getElementById("para1").innerHTML = para1;
+    window.alert(para1)
    if (Notification.permission === "denied") {
    Notification.requestPermission(); 
    } else if (Notification.permission !== "denied") {
